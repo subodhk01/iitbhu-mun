@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    color: #DFAF65;
+    color: #00c4ff;
 }
 
 iframe {
@@ -282,7 +282,7 @@ h1.navbar-brand {
     letter-spacing: 2px;
 }
 .navbar-inverse .navbar-nav > li > a:hover{
-  color:  #DFAF65;
+  color:  #00c4ff;
 }
 
 /*=================================================================
@@ -1476,7 +1476,7 @@ width: 40%;
 
 
 .lead {
-    color: #DFAF65;
+    color: #00c4ff;
     font-family: 'Lato', sans-serif;
     text-align: center;
     padding-top: 10px;
@@ -1494,12 +1494,12 @@ width: 40%;
     #aboutus {
   text-align: center;
   padding-top: 90px;
-    color: #DFAF65;
+    color: #00c4ff;
     font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: .3rem;
-  text-shadow: .1rem .1rem .8rem #DFAF65;
+  text-shadow: .1rem .1rem .8rem #00c4ff;
 }
 
 
@@ -1510,7 +1510,7 @@ width: 40%;
 {
 
     .lead {
-        color: #DFAF65;
+        color: #00c4ff;
         font-family: 'Lato', sans-serif;
         text-align: center;
         padding-top: 10px;
@@ -1535,22 +1535,22 @@ width: 40%;
     text-align: center;
     padding-top: 50px;
     margin-top: 0px!important;
-    color: #DFAF65;
+    color: #00c4ff;
     font-size: 2.2rem;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     letter-spacing: .3rem;
-    text-shadow: .1rem .1rem .8rem #DFAF65;
+    text-shadow: .1rem .1rem .8rem #00c4ff;
 }
 
 .leadhome {
-    color: #DFAF65;
+    color: #00c4ff;
     font-family: 'Lato', sans-serif!important;
     text-align: center!important;
     padding-top: 10px!important;
     font-weight: 400!important;
     font-size: 1.9rem!important;
-    margin-top: -12px!important; 
+    margin-top: -12px!important;
     padding-left: 20px!important;
     padding-right: 20px!important;
     padding-top: 20px!important;
@@ -1561,25 +1561,25 @@ width: 40%;
 
    .leadhome {
       font-size: .96em;
-      color: #DFAF65;
+      color: #00c4ff;
   font-family: 'Lato', sans-serif;
   text-align: center;
   padding-top: 10px;
   font-weight: 400;
   margin-top: -12px;
-  
+
    }
 
 }
 
 footer {
     background-image: url("images/thememun5.png");
-    color: #DFAF65;
-    
+    color: #00c4ff;
+
 }
 
 footer a {
-    color: #DFAF65;
+    color: #00c4ff;
 }
 
 footer svg.svg-inline--fa {
@@ -1667,7 +1667,7 @@ footer{
   font: bold 16px sans-serif;
   padding: 15px 50px;
 }
- 
+
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right{
@@ -1678,46 +1678,46 @@ footer{
 .footer_title {
   font-size: 24px!important;
 }
- 
+
 .footer-distributed .footer-left{
   width: 40%;
 }
- 
+
 .footer-distributed h3{
   color:  #ffffff;
   margin: 0;
 }
- 
+
 .footer-distributed h3 span{
-  color:  #DFAF65;
+  color:  #00c4ff;
 }
- 
- 
+
+
 .footer-distributed .footer-links{
   color:  #ffffff;
   margin: 20px 0 12px;
   padding: 0;
 }
- 
+
 .footer-distributed .footer-links a{
   display:inline-block;
   line-height: 1.8;
   text-decoration: none;
   color:  inherit;
 }
- 
+
 .footer-distributed .footer-company-name{
   color:  #8f9296;
   font-size: 14px;
   font-weight: normal;
   margin: 0;
 }
- 
- 
+
+
 .footer-distributed .footer-center{
   width: 35%;
 }
- 
+
 .footer-distributed .footer-center i{
   background-color:  #33383b;
   color: #ffffff;
@@ -1730,35 +1730,35 @@ footer{
   margin: 10px 15px;
   vertical-align: middle;
 }
- 
+
 .footer-distributed .footer-center i.fa-envelope{
   font-size: 17px;
   line-height: 38px;
 }
- 
+
 .footer-distributed .footer-center p{
   display: inline-block;
   color: #ffffff;
   vertical-align: middle;
   margin:0;
 }
- 
+
 .footer-distributed .footer-center p span{
   display:block;
   font-weight: normal;
   font-size:14px;
   line-height:2;
 }
- 
+
 .footer-distributed .footer-center p a{
   color:  #5383d3;
   text-decoration: none;;
 }
- 
+
 .footer-distributed .footer-right{
   width: 20%;
 }
- 
+
 .footer-distributed .footer-company-about{
   line-height: 20px;
   color:  #92999f;
@@ -1766,7 +1766,7 @@ footer{
   font-weight: normal;
   margin: 0;
 }
- 
+
 .footer-distributed .footer-company-about span{
   display: block;
   color:  #ffffff;
@@ -1774,34 +1774,34 @@ footer{
   font-weight: bold;
   margin-bottom: 20px;
 }
- 
+
 .footer-distributed .footer-icons{
   margin-top: 25px;
 }
- 
+
 .footer-distributed .footer-icons a{
 
   cursor: pointer;
   background-color:  #33383b;
 
- 
+
   font-size: 40px;
   color: #ffffff;
   text-align: center;
 
- 
+
   margin-right: 3px;
   margin-bottom: 5px;
 }
- 
- 
+
+
 @media (max-width: 880px) {
- 
+
   .footer-distributed{
     font: bold 14px sans-serif;
-  
+
   }
- 
+
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
   .footer-distributed .footer-right{
@@ -1810,7 +1810,7 @@ footer{
     margin-bottom: 40px;
     text-align: center;
   }
- 
+
   .footer-distributed .footer-center i{
     margin-left: 0;
   }
@@ -1818,14 +1818,14 @@ footer{
     line-height: normal;
     font-size: auto;
   }
- 
+
 }
 
 .separator {
     width: 10px;
     height: 10px;
     margin: 9px auto;
-    background: #DFAF65;
+    background: #00c4ff;
     position: absolute;
     display: inline-block;
     border-radius: 50%;
@@ -1868,7 +1868,7 @@ footer{
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px; 
+  font-size: 16px;
   border: none;
   outline: none;
   color: transparent;
@@ -1891,9 +1891,9 @@ footer{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
   z-index: 1;
-  font-size: 14px; 
+  font-size: 14px;
    margin-top: 15px!important;
-   font-weight: 700; 
+   font-weight: 700;
    letter-spacing: .1rem;
 }
 
@@ -1905,9 +1905,9 @@ footer{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
   z-index: 1;
-  font-size: 14px; 
+  font-size: 14px;
    margin-top: -15px;
-   font-weight: 700; 
+   font-weight: 700;
    letter-spacing: .1rem;
 }
 }
@@ -1925,8 +1925,8 @@ footer{
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: transparent;
-  color: #DFAF65!important;
- 
+  color: #00c4ff!important;
+
 }
 
 /* Show the dropdown menu on hover */
@@ -1940,7 +1940,7 @@ footer{
 }
 
 .clr:hover {
-    color: #DFAF65!important;
+    color: #00c4ff!important;
 }
 
 .bdy {
