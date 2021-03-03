@@ -1229,6 +1229,11 @@ textarea.form-control {
   color: white;
   letter-spacing: 2px;
 }
+@media(max-width: 772px){
+    .munLogoTitle{
+        margin-top: 16px !important;
+    }
+}
 .organizerName{
     font-size: 140%;
     letter-spacing: 2px;
@@ -1439,13 +1444,13 @@ margin-top: 12%;
   }
 }
 .head-logo{
-  width: 15%;
+  width: 80px;
   float: left;
   padding-top: 2px;
 }
 @media screen and (min-width:768px){
   .head-logo{
-    width: 12%;
+    width: 50px;
   }
 }
 
