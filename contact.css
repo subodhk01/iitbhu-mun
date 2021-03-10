@@ -623,3 +623,42 @@ button:hover:before {
   left: calc(0% - 10px);
   transition: left .5s cubic-bezier(0.86, 0, 0.07, 1);
 }
+
+
+.team-item {
+  padding: 1rem;
+  position: relative;
+  max-width: 70%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-item::after {
+  content: " ";
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-top: 3px solid gold;
+  box-shadow: 0px 0px 20px 1px rgba(255, 217, 0, 0.603), 0px 0px 10px 2px rgba(255, 217, 0, 0.651) inset;
+  animation: Rotate 3s linear infinite;
+}
+
+.team-item img {
+  border-radius: 50%;
+  width: 100%;
+  border: 3px solid #d4902b;
+}
+
+@keyframes Rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
