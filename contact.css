@@ -662,3 +662,7 @@ button:hover:before {
     transform: rotate(360deg);
   }
 }
+
+h1,h2 {
+  text-shadow: .1rem .1rem .8rem #00c4ff;
+}

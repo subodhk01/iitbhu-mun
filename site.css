@@ -56,3 +56,7 @@
 .circle-container img:hover {
   filter: grayscale(0);
 }
+
+h1,h2 {
+  text-shadow: .1rem .1rem .8rem #00c4ff;
+}

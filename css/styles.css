@@ -13,6 +13,11 @@ body {
     text-align: center;
 }
 
+h1,h2 {
+    text-shadow: .1rem .1rem .8rem #00c4ff;
+  }
+  
+
 #fullscreen{
     
     #background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/man.jpeg');
