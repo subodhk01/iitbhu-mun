@@ -225,93 +225,37 @@
       </a>
 </div>
 </div>
+<div class="text-center"><div id="timer"></div></div>
 </div>
 <!--- End About Section-->
 
-<div class="wrap">
-  <h1>Draft <strong>Countdown</strong></h1>
 
-  <div class="countdown">
-    <div class="bloc-time hours" data-init-value="24">
-      <span class="count-title">Hours</span>
+<script>
+    function updateTimer() {
+        future  = Date.parse("April 16, 2021 17:00:00");
+  now     = new Date();
+  diff    = future - now;
 
-      <div class="figure hours hours-1">
-        <span class="top">2</span>
-        <span class="top-back">
-          <span>2</span>
-        </span>
-        <span class="bottom">2</span>
-        <span class="bottom-back">
-          <span>2</span>
-        </span>
-      </div>
+  days  = Math.floor( diff / (1000*60*60*24) );
+  hours = Math.floor( diff / (1000*60*60) );
+  mins  = Math.floor( diff / (1000*60) );
+  secs  = Math.floor( diff / 1000 );
 
-      <div class="figure hours hours-2">
-        <span class="top">4</span>
-        <span class="top-back">
-          <span>4</span>
-        </span>
-        <span class="bottom">4</span>
-        <span class="bottom-back">
-          <span>4</span>
-        </span>
-      </div>
-    </div>
+  d = days;
+  h = hours - days  * 24;
+  m = mins  - hours * 60;
+  s = secs  - mins  * 60;
 
-    <div class="bloc-time min" data-init-value="0">
-      <span class="count-title">Minutes</span>
+  document.getElementById("timer")
+    .innerHTML =
+      '<div>' + d + '<span>days</span></div>' +
+      '<div>' + h + '<span>hours</span></div>' +
+      '<div>' + m + '<span>minutes</span></div>' +
+      '<div>' + s + '<span>seconds</span></div>' ;
+}
+setInterval('updateTimer()', 1000 );
 
-      <div class="figure min min-1">
-        <span class="top">0</span>
-        <span class="top-back">
-          <span>0</span>
-        </span>
-        <span class="bottom">0</span>
-        <span class="bottom-back">
-          <span>0</span>
-        </span>
-      </div>
-
-      <div class="figure min min-2">
-       <span class="top">0</span>
-        <span class="top-back">
-          <span>0</span>
-        </span>
-        <span class="bottom">0</span>
-        <span class="bottom-back">
-          <span>0</span>
-        </span>
-      </div>
-    </div>
-
-    <div class="bloc-time sec" data-init-value="0">
-      <span class="count-title">Seconds</span>
-
-        <div class="figure sec sec-1">
-        <span class="top">0</span>
-        <span class="top-back">
-          <span>0</span>
-        </span>
-        <span class="bottom">0</span>
-        <span class="bottom-back">
-          <span>0</span>
-        </span>
-      </div>
-
-      <div class="figure sec sec-2">
-        <span class="top">0</span>
-        <span class="top-back">
-          <span>0</span>
-        </span>
-        <span class="bottom">0</span>
-        <span class="bottom-back">
-          <span>0</span>
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-
+</script>
 
 
 <!--- Start Contact Section -->
@@ -334,7 +278,7 @@
     ·
         </p>
 
-        <p class="footer-company-name fade"> &copy;2021Copyright: IITBHU MUN</p>
+        <p class="footer-company-name fade"> &copy;2021: IITBHU MUN</p>
         </div>
 
         <div class="footer-center fade">
