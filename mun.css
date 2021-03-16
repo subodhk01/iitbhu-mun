@@ -580,7 +580,7 @@ button:after {
 }
 
 button:before {
-  background: #d4902b;
+  background: #00c4ff;
   z-index: 5;
   transition: left .5s cubic-bezier(0.86, 0, 0.07, 1);
 }
