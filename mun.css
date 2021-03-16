@@ -23,7 +23,7 @@ body {
 	font-weight: 700;
 	font-size: .92rem;
 	letter-spacing: .1rem;
-	background: rgba(0, 0, 0, 1)!important;
+	background-color: rgb(9, 17, 34) !important;
 }
 .navbar-brand img {
 	height: 2.6rem;
