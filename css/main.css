@@ -259,7 +259,7 @@ main > section {
          -o-transition: all 0.8s ease 0s;
             transition: all 0.8s ease 0s;
 
-    background-color: rgba(9, 17, 34, 0.904);
+    background-color: rgb(0, 0, 0);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding: -5px 0;
 }
@@ -1893,7 +1893,7 @@ footer{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgba(0,0,0,0.2)!important;
+  background-color: black;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
   z-index: 1;
