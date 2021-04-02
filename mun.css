@@ -820,7 +820,7 @@ canvas {
   line-height: 200px;
   font-size: 100px;
   color: #FFF;
-  -webkit-backface-visibility: hidden;
+  -w kit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
