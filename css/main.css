@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
 
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     color: #00c4ff;
 }
 
@@ -198,8 +198,7 @@ main > section {
   border-radius: 1px;
   height: 100px;
   left: 50%;
-  margin-left: -64px;
-  margin-top: -50px;
+  transform: translate(-50%, -50%);
   position: absolute;
   top: 50%;
   width: 128px;
@@ -1473,7 +1472,7 @@ width: 40%;
     text-align: center;
     padding-top: 90px;
     color: silver;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: .3rem;
@@ -1483,7 +1482,7 @@ width: 40%;
 
 .lead {
     color: #00c4ff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     text-align: center;
     padding-top: 10px;
     font-weight: 400;
@@ -1501,7 +1500,7 @@ width: 40%;
   text-align: center;
   padding-top: 90px;
     color: #00c4ff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: .3rem;
@@ -1517,7 +1516,7 @@ width: 40%;
 
     .lead {
         color: #00c4ff;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Work Sans', sans-serif;
         text-align: center;
         padding-top: 10px;
         font-weight: 400;
@@ -1533,7 +1532,7 @@ width: 40%;
 #abouthome {
     background-image: url("images/thememun5.png")!important;
   border-top: 5px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     padding-bottom: 40px;
 }
 
@@ -1543,7 +1542,7 @@ width: 40%;
     margin-top: 0px!important;
     color: #00c4ff;
     font-size: 2.2rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     letter-spacing: .3rem;
     text-shadow: .1rem .1rem .8rem #00c4ff;
@@ -1551,7 +1550,7 @@ width: 40%;
 
 .leadhome {
     color: #00c4ff;
-    font-family: 'Lato', sans-serif!important;
+    font-family: 'Work Sans', sans-serif!important;
     text-align: center!important;
     padding-top: 10px!important;
     font-weight: 400!important;
@@ -1568,7 +1567,7 @@ width: 40%;
    .leadhome {
       font-size: .96em;
       color: #00c4ff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   text-align: center;
   padding-top: 10px;
   font-weight: 400;

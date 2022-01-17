@@ -1,0 +1,146 @@
+/* Header
+========================= */
+#navigation {
+  -webkit-transition: all 0.8s ease 0s;
+  -moz-transition: all 0.8s ease 0s;
+  -ms-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+
+  background-color: #400026 !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  padding: -5px 0;
+}
+
+.nav > li > a {
+  color: #ffb344 !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav > li > a.active {
+  color: white !important;
+  border-bottom: 3px solid white;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.card-img-overlay{
+  background-color: rgba(0, 0, 0, 0.54);
+  /* text-align: center; */
+}
+
+/* ======
+Media Queries ================== */
+@media screen and (max-width: 992px) {
+  .nav > li > a.active {
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .head-logo {
+    width: 45px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #navigation {
+    min-height: 60px !important;
+  }
+  .head-logo {
+    width: 35px;
+  }
+
+  main {
+    top: 60px !important;
+  }
+  .navbar-toggler-icon {
+    font-size: 15px;
+  }
+}
+
+/* Collaborations Section
+============================================ */
+.polygon{
+  background-color: #400026;
+  min-height: 400px;
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%, 0 25%, 28% 25%);
+}
+
+.quad-polygon{
+  background-color: #EA3358;
+  min-height: 358px;
+  min-width: 100vw;
+  clip-path: polygon(15.1% 0%, 100% 0%, 100% 100%, 5.1% 100%);
+  z-index: -1;
+}
+.div-polygon{
+  background-color: #1e2833;
+  min-height: 365px;
+  min-width: 100vw;
+  clip-path: polygon(14.7% 0%, 100% 0%, 100% 100%, 4.7% 100%);
+  z-index: -2;
+}
+
+.outline-polygon{
+  background-color: #ffb344;
+  min-height: 370px;
+  min-width: 100vw;
+  clip-path: polygon(14.4% 0%, 100% 0%, 100% 100%, 4.4% 100%);
+  z-index: -3;
+}
+
+/* Slider Section 
+========================================= */
+
+
+/* Legacy Section
+========================================== */
+.counts{
+  color: #ffb344;
+}
+
+
+/* Reviews Section
+============================================ */
+.polygon-reverse{
+  background-color: #400026;
+  min-height: 400px;
+  clip-path: polygon(70% 0, 72% 25%, 100% 25%, 100% 100%, 0 100%, 0 0);
+}
+
+.quad-polygon-reverse{
+  background-color: #EA3358;
+  min-height: 358px;
+  min-width: 100vw;
+  clip-path: polygon(0 0, 84.9% 0%, 94.9% 100%, 0 100%);
+  z-index: -1;
+}
+.div-polygon-reverse{
+  background-color: #1e2833;
+  min-height: 365px;
+  min-width: 100vw;
+  clip-path: polygon(0% 0%, 85.3% 0%, 95.3% 100%, 0% 100%);
+  z-index: -2;
+}
+
+.outline-polygon-reverse{
+  background-color: #ffb344;
+  min-height: 370px;
+  min-width: 100vw;
+  clip-path: polygon(0% 0%, 85.6% 0%, 95.6% 100%, 0% 100%);
+  z-index: -3;
+}
+
+/* Footer Section
+========================================= */
+footer{
+  background-image: linear-gradient(to bottom, #262626, #1e1e1e, #171717, #0d0d0d, #000000);
+}
+
+.home-reg-btn{
+  background-color: #EA3358;
+}

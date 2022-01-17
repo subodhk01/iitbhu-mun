@@ -1,206 +1,648 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>IITBHU MUN</title>
-	<link rel = "icon" href = "logo_new.png" type = "image/x-icon">
-	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="mun.css">
-	<link rel="stylesheet" href="css/fixed.css">
-	<link rel="stylesheet" type="text/css" href="site.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/Group.png" type="image/x-icon">
+
+    <!-- Meta Description -->
+    <meta name="description"
+        content="Official website for Model United Nation, IIT(BHU), Varanasi. Rise. Speak. Resolve!">
+    <meta name="keywords" content="MUN, MUN IIT BHU, mun iit bhu, iit bhu, modal united nation">
+    <meta name="author" content="Navtosh Kumar Das">
+
+    <!-- ============ CSS ============ -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/committees.css">
+
+
+    <!-- Modernizer Script for old Browsers -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+        integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Title -->
+    <title>IITBHU MUN</title>
 </head>
 
-<body data-spy="scroll" data-target="#navbarResponsive" class="">
-       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="mun.html"><img src="logo_new.png" href="mun.html"></a>
-    <button style="margin-right: -15%!important; margin-top: 5%;" class="navbar-toggler" type="button" data-toggle="collapse"
-    data-target="#navbarResponsive">
-         <span class="navbar-toggler-icon"></span>
-    </button>
+<body>
 
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-    	<ul class="navbar-nav ml-auto">
-    		<li class="nav-item">
-    			<a class="nav-link" href="mun.html">Home</a>
-    		</li>
-    		<li class="nav-item">
-    			<a class="nav-link" href="about.html">About Us</a>
-    		</li>
-    		<li class="nav-item" style="text-decoration: none;">
-    			<div class="nav-link  dropdown dropbtn"><a class="clr" style="text-decoration: none;" href="committees.html" style="color: #00c4ff;">Committees</a>
-           <div class="dropdown-content">
-            <a href="unsc.html">UNSC</a>
-            <a href="sochum.html">SOCHUM</a>
-            <a href="uncstd.html">UNCSTD</a>
-            <a href="unwomen.html">UN Women</a>
-            <a href="loksabha.html">LOKSABHA</a>
-            <a href="imf.html">IMF</a>
-           </div>
-          </div>
-    		</li>
-    		<li class="nav-item">
-    			<a class="nav-link" href="faqs.html">FAQs</a>
-    		</li>
-            <li class="nav-item">
-                <a class="nav-link" href="collaborations.html">COLLABORATIONS</a>
-              </li>
-    		<li class="nav-item">
-    			<a class="nav-link" href="contact.html">Contact</a>
-    		</li>
-    	</ul>
+    <!-- preloader -->
+    <div id="preloader">
+        <div class="loder-box">
+            <!-- <div class="battery"></div> -->
+            <div class="spinner-grow visually-hidden" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
     </div>
-</nav>
+    <!-- end preloader -->
 
-<div id="committees" class="offset fade">
-<!--- Start Icon -->
-<div class="icon">
-	<div class="narrow">
-		<div class="col-12 text-center">
-			<h3 class="heading">committees</h3>
-			<div class="heading-underline"></div>
-		</div>
 
-		<div class=" text-center fade">
+    <!-- ================= Fixed Navigation ===================== -->
+    <header id="navigation" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark py-2"
+        style="min-height: 80px;">
+        <div class="container">
 
-            <div class="text-center">
-                <div class="committee fade">
-                    <a href="unsc.html"><img src="nimages/UNSC-01.png"></a>
-                    <h4>United Nations Security Council</h4>
-                    <h5>(UNSC)</h5>
+            <!-- Nav logo -->
+            <a class="navbar-brand" href="mun.html">
+                <img width="60px" src="./img/Group.png" class="head-logo" alt="">
+            </a>
+            <!-- logo -->
+
+            <!-- Responsive nav button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- responsive nav end -->
+
+            <!-- main nav -->
+            <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="nav" class=" nav navbar-nav mb-2 ms-auto mb-lg-0">
+                    <li class="nav-item px-1">
+                        <a class="nav-link" aria-current="page" href="mun.html">Home</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link active" href="committees.html">Committees</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="secretariat.html">The Secretariat</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Registrations</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">FAQs</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- main nav end -->
+        </div>
+    </header>
+
+    <!-- 
+       ======= Fixed Navigation ends ==========================
+     -->
+
+    <main class="site-content" role="main" style="position: relative; top: 80px;">
+
+        <!-- Committees section starts -->
+        <section id="committee">
+            <div class="card-group">
+                <div class="card bg-secondary min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div class="card-img-overlay yellow-card">
+                        <div class="card-img-body text-center align-self-center pt-3"><img
+                                src="./committee-img/security.png" alt="" width="40%">
+                        </div>
+                        <div class="card-text-body">
+                            <div class="row justify-content-around fs-3 fs-semi my-4">UNITED NATION SECURITY COUNCIL
+                            </div>
+                            <div class="row w-75 mx-auto">This committee is one of the six principal organs of the
+                                United Nations whose primary objective is to ensure
+                                international peace and security, recommend admissions of new UN members to the General
+                                Assembly, and to approve any
+                                changes to the UN Charter. It has a total of 15 members, out of which 5 are permanent
+                                members, and the rest 10 are
+                                non-permanent members which are appointed from the General Assembly for a tenure of 2
+                                years.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div
+                        class="card-img-overlay black-card d-flex align-items-center justify-content-evenly flex-column px-5">
+                        <div class="col h-50 d-flex flex-column justify-content-center">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">DELEGATE RESOURCES</div>
+                            <div class="row text-center">
+                                <p class="mb-0">Agenda : Crisis in Kosovo, 1999</p>
+                                <p class="mb-0">Click to view the <span class="text-yellow">Country Matrix</span></p>
+                                <p class="mb-0">The Background Guide has been released! <span class="text-yellow">View
+                                        here</span></p>
+                            </div>
+                        </div>
+                        <hr class="w-100 line">
+                        <div class="col h-50 d-flex flex-column justify-content-evenly">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">EXECUTIVE BOARD</div>
+                            <div class="row">
+                                <div class="col gx-5">
+                                    <div class="row mx-2 justify-content-center"><img src="./img/Group.png"
+                                            class="rounded-circle img-fluid" alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-yellow fs-6">Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-yellow fs-6">Vice Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-yellow fs-6">Director
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-			<div class="text-center fade">
-				<div class="committee fade">
-					<a href="sochum.html"><img src="nimages/Sochum-01.png"></a>
-					<h4>Social, Humanitarian and Cultural Committee</h4>
-					<h5>(SOCHUM)</h5>
-				</div>
-			</div>
-			<div class="text-center fade">
-				<div class="committee fade">
-					<a href="uncstd.html"><img src="nimages/UNCSDT-01.png"></a>
-					<h4>United Nations Commission on Science and Technology for Development </h4>
-					<h5>(UNCSTD)</h5>
-				</div>
-			</div>
+            <div class="card-group">
+                <div class="card bg-secondary min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div class="card-img-overlay pink-card">
+                        <div class="card-img-body text-center align-self-center pt-3"><img
+                                src="./committee-img/sochum.png" alt="" width="40%">
+                        </div>
+                        <div class="card-text-body text-white">
+                            <div class="row justify-content-around fs-3 fs-semi my-4">UNITED NATION SECURITY COUNCIL
+                            </div>
+                            <div class="row w-75 mx-auto">This committee is one of the six principal organs of the
+                                United Nations whose primary objective is to ensure
+                                international peace and security, recommend admissions of new UN members to the General
+                                Assembly, and to approve any
+                                changes to the UN Charter. It has a total of 15 members, out of which 5 are permanent
+                                members, and the rest 10 are
+                                non-permanent members which are appointed from the General Assembly for a tenure of 2
+                                years.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div
+                        class="card-img-overlay black-card d-flex align-items-center justify-content-evenly flex-column px-5">
+                        <div class="col h-50 d-flex flex-column justify-content-center">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">DELEGATE RESOURCES</div>
+                            <div class="row text-center">
+                                <p class="mb-0">Agenda : Crisis in Kosovo, 1999</p>
+                                <p class="mb-0">Click to view the <span class="text-pink">Country Matrix</span></p>
+                                <p class="mb-0">The Background Guide has been released! <span class="text-pink">View
+                                        here</span></p>
+                            </div>
+                        </div>
+                        <hr class="w-100 line">
+                        <div class="col h-50 d-flex flex-column justify-content-evenly">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">EXECUTIVE BOARD</div>
+                            <div class="row">
+                                <div class="col gx-5">
+                                    <div class="row mx-2 justify-content-center"><img src="./img/Group.png"
+                                            class="rounded-circle img-fluid" alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-pink fs-6">Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-pink fs-6">Vice Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-pink fs-6">Director
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card bg-secondary min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div class="card-img-overlay yellow-card">
+                        <div class="card-img-body text-center align-self-center pt-3"><img
+                                src="./committee-img/security.png" alt="" width="40%">
+                        </div>
+                        <div class="card-text-body">
+                            <div class="row justify-content-around fs-3 fs-semi my-4">UNITED NATION SECURITY COUNCIL
+                            </div>
+                            <div class="row w-75 mx-auto">This committee is one of the six principal organs of the
+                                United Nations whose primary objective is to ensure
+                                international peace and security, recommend admissions of new UN members to the General
+                                Assembly, and to approve any
+                                changes to the UN Charter. It has a total of 15 members, out of which 5 are permanent
+                                members, and the rest 10 are
+                                non-permanent members which are appointed from the General Assembly for a tenure of 2
+                                years.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div
+                        class="card-img-overlay black-card d-flex align-items-center justify-content-evenly flex-column px-5">
+                        <div class="col h-50 d-flex flex-column justify-content-center">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">DELEGATE RESOURCES</div>
+                            <div class="row text-center">
+                                <p class="mb-0">Agenda : Crisis in Kosovo, 1999</p>
+                                <p class="mb-0">Click to view the <span class="text-yellow">Country Matrix</span></p>
+                                <p class="mb-0">The Background Guide has been released! <span class="text-yellow">View
+                                        here</span></p>
+                            </div>
+                        </div>
+                        <hr class="w-100 line">
+                        <div class="col h-50 d-flex flex-column justify-content-evenly">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">EXECUTIVE BOARD</div>
+                            <div class="row">
+                                <div class="col gx-5">
+                                    <div class="row mx-2 justify-content-center"><img src="./img/Group.png"
+                                            class="rounded-circle img-fluid" alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-yellow fs-6">Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-yellow fs-6">Vice Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-yellow fs-6">Director
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card bg-secondary min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div class="card-img-overlay pink-card">
+                        <div class="card-img-body text-center align-self-center pt-3"><img
+                                src="./committee-img/sochum.png" alt="" width="40%">
+                        </div>
+                        <div class="card-text-body text-white">
+                            <div class="row justify-content-around fs-3 fs-semi my-4">UNITED NATION SECURITY COUNCIL
+                            </div>
+                            <div class="row w-75 mx-auto">This committee is one of the six principal organs of the
+                                United Nations whose primary objective is to ensure
+                                international peace and security, recommend admissions of new UN members to the General
+                                Assembly, and to approve any
+                                changes to the UN Charter. It has a total of 15 members, out of which 5 are permanent
+                                members, and the rest 10 are
+                                non-permanent members which are appointed from the General Assembly for a tenure of 2
+                                years.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div
+                        class="card-img-overlay black-card d-flex align-items-center justify-content-evenly flex-column px-5">
+                        <div class="col h-50 d-flex flex-column justify-content-center">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">DELEGATE RESOURCES</div>
+                            <div class="row text-center">
+                                <p class="mb-0">Agenda : Crisis in Kosovo, 1999</p>
+                                <p class="mb-0">Click to view the <span class="text-pink">Country Matrix</span></p>
+                                <p class="mb-0">The Background Guide has been released! <span class="text-pink">View
+                                        here</span></p>
+                            </div>
+                        </div>
+                        <hr class="w-100 line">
+                        <div class="col h-50 d-flex flex-column justify-content-evenly">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">EXECUTIVE BOARD</div>
+                            <div class="row">
+                                <div class="col gx-5">
+                                    <div class="row mx-2 justify-content-center"><img src="./img/Group.png"
+                                            class="rounded-circle img-fluid" alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-pink fs-6">Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-pink fs-6">Vice Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-pink fs-6">Director
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card bg-secondary min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div class="card-img-overlay yellow-card">
+                        <div class="card-img-body text-center align-self-center pt-3"><img
+                                src="./committee-img/security.png" alt="" width="40%">
+                        </div>
+                        <div class="card-text-body">
+                            <div class="row justify-content-around fs-3 fs-semi my-4">UNITED NATION SECURITY COUNCIL
+                            </div>
+                            <div class="row w-75 mx-auto">This committee is one of the six principal organs of the
+                                United Nations whose primary objective is to ensure
+                                international peace and security, recommend admissions of new UN members to the General
+                                Assembly, and to approve any
+                                changes to the UN Charter. It has a total of 15 members, out of which 5 are permanent
+                                members, and the rest 10 are
+                                non-permanent members which are appointed from the General Assembly for a tenure of 2
+                                years.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div
+                        class="card-img-overlay black-card d-flex align-items-center justify-content-evenly flex-column px-5">
+                        <div class="col h-50 d-flex flex-column justify-content-center">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">DELEGATE RESOURCES</div>
+                            <div class="row text-center">
+                                <p class="mb-0">Agenda : Crisis in Kosovo, 1999</p>
+                                <p class="mb-0">Click to view the <span class="text-yellow">Country Matrix</span></p>
+                                <p class="mb-0">The Background Guide has been released! <span class="text-yellow">View
+                                        here</span></p>
+                            </div>
+                        </div>
+                        <hr class="w-100 line">
+                        <div class="col h-50 d-flex flex-column justify-content-evenly">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">EXECUTIVE BOARD</div>
+                            <div class="row">
+                                <div class="col gx-5">
+                                    <div class="row mx-2 justify-content-center"><img src="./img/Group.png"
+                                            class="rounded-circle img-fluid" alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-yellow fs-6">Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-yellow fs-6">Vice Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-yellow fs-6">Director
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card bg-secondary min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div class="card-img-overlay pink-card">
+                        <div class="card-img-body text-center align-self-center pt-3"><img
+                                src="./committee-img/sochum.png" alt="" width="40%">
+                        </div>
+                        <div class="card-text-body text-white">
+                            <div class="row justify-content-around fs-3 fs-semi my-4">UNITED NATION SECURITY COUNCIL
+                            </div>
+                            <div class="row w-75 mx-auto">This committee is one of the six principal organs of the
+                                United Nations whose primary objective is to ensure
+                                international peace and security, recommend admissions of new UN members to the General
+                                Assembly, and to approve any
+                                changes to the UN Charter. It has a total of 15 members, out of which 5 are permanent
+                                members, and the rest 10 are
+                                non-permanent members which are appointed from the General Assembly for a tenure of 2
+                                years.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div
+                        class="card-img-overlay black-card d-flex align-items-center justify-content-evenly flex-column px-5">
+                        <div class="col h-50 d-flex flex-column justify-content-center">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">DELEGATE RESOURCES</div>
+                            <div class="row text-center">
+                                <p class="mb-0">Agenda : Crisis in Kosovo, 1999</p>
+                                <p class="mb-0">Click to view the <span class="text-pink">Country Matrix</span></p>
+                                <p class="mb-0">The Background Guide has been released! <span class="text-pink">View
+                                        here</span></p>
+                            </div>
+                        </div>
+                        <hr class="w-100 line">
+                        <div class="col h-50 d-flex flex-column justify-content-evenly">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">EXECUTIVE BOARD</div>
+                            <div class="row">
+                                <div class="col gx-5">
+                                    <div class="row mx-2 justify-content-center"><img src="./img/Group.png"
+                                            class="rounded-circle img-fluid" alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-pink fs-6">Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-pink fs-6">Vice Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-pink fs-6">Director
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card bg-secondary min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div class="card-img-overlay yellow-card">
+                        <div class="card-img-body text-center align-self-center pt-3"><img
+                                src="./committee-img/security.png" alt="" width="40%">
+                        </div>
+                        <div class="card-text-body">
+                            <div class="row justify-content-around fs-3 fs-semi my-4">UNITED NATION SECURITY COUNCIL
+                            </div>
+                            <div class="row w-75 mx-auto">This committee is one of the six principal organs of the
+                                United Nations whose primary objective is to ensure
+                                international peace and security, recommend admissions of new UN members to the General
+                                Assembly, and to approve any
+                                changes to the UN Charter. It has a total of 15 members, out of which 5 are permanent
+                                members, and the rest 10 are
+                                non-permanent members which are appointed from the General Assembly for a tenure of 2
+                                years.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white min-vh-100">
+                    <img src="..." class="card-img" alt="...">
+                    <div
+                        class="card-img-overlay black-card d-flex align-items-center justify-content-evenly flex-column px-5">
+                        <div class="col h-50 d-flex flex-column justify-content-center">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">DELEGATE RESOURCES</div>
+                            <div class="row text-center">
+                                <p class="mb-0">Agenda : Crisis in Kosovo, 1999</p>
+                                <p class="mb-0">Click to view the <span class="text-yellow">Country Matrix</span></p>
+                                <p class="mb-0">The Background Guide has been released! <span class="text-yellow">View
+                                        here</span>
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="w-100 line">
+                        <div class="col h-50 d-flex flex-column justify-content-evenly">
+                            <div class="row fs-3 fs-semi justify-content-around mb-4">EXECUTIVE BOARD</div>
+                            <div class="row">
+                                <div class="col gx-5">
+                                    <div class="row mx-2 justify-content-center"><img src="./img/Group.png"
+                                            class="rounded-circle img-fluid" alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-yellow fs-6">Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-yellow fs-6">Vice Chair</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row mx-2"><img src="./img/Group.png" class="rounded-circle img-fluid"
+                                            alt=""></div>
+                                    <div class="row justify-content-center mt-3">Ahan Gadkari</div>
+                                    <div class="row justify-content-center text-yellow fs-6">Director
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-			<div class="text-center fade">
-				<div class="committee fade">
-					<a href="unwomen.html"><img src="nimages/Un Womens-01.png"></a>
-					<h4>UN Women</h4>
-				</div>
-			</div>
-			<div class="text-center fade">
-				<div class="committee fade">
-					<a href="loksabha.html"><img src="nimages/lok sabha-01.png"></a>
-					<h5>Lok Sabha </h5>
-				</div>
-			</div>
-			<div class="text-center fade">
-				<div class="committee fade">
-					<a href="imf.html"><img src="nimages/IMF-01.png"></a>
-					<h4>International Monetary Fund</h4>
-					<h5 id="three">(IMF)</h5>
-				</div>
-			</div>
-			<div class="text-center fade">
-				<div class="committee fade">
-					<a href=""><img src="nimages/International Press-01.png"></a>
-					<h5>International Press</h5>
-				</div>
-			</div><br><br>
+        </section>
+        <!-- Committees section ends -->
 
-	</div>
-</div><!--- End Narrow -->
-<!--- End Icon -->
+        <!-- Footer section starts -->
 
-</div>
-</div>
-<!--- Start Contact Section -->
-<footer class="footer-distributed">
+        <footer id="footer">
+            <div class="container text-light pt-5">
+                <div class="row my-5">
+                    <div class="col-3 text-center align-middle mt-4">
+                        <img src="./img/Group.png" alt="" width="120px">
+                    </div>
+                    <div class="col-2">
+                        <div class="row my-3 fs-6">Home</div>
+                        <div class="row my-3 fs-6">Committees</div>
+                        <div class="row my-3 fs-6">The Secretariat</div>
+                        <div class="row my-3 fs-6">FAQs</div>
+                    </div>
+                    <div class="col-4 my-3">
+                        <div class="row fs-semi fs-5 mb-2">Contact Us</div>
+                        <address>
+                            <div class="row">
+                                <div class="col-1 fs-3 p-2"><a href="https://goo.gl/maps/fWoLfVNmk1XKL5wN7"
+                                        target="_blank" class="text-light" rel="noopener noreferrer"><i
+                                            class="fal fa-map-marker-alt"></i></a>
+                                </div>
+                                <div class="col-11 lh-1 align-self-center"><a
+                                        href="https://goo.gl/maps/fWoLfVNmk1XKL5wN7" target="_blank"
+                                        class="text-light fs-6" rel="noopener noreferrer"> Indian Institute Of
+                                        Technology
+                                        (B.H.U)<br> Varanasi, India</a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1 fs-3 p-2 align-self-center"><a href="mailto:secretariat@iitbhumun.in"
+                                        target="_blank" class="text-light"><i class="fal fa-envelope"></i></a></div>
+                                <div class="col-11 align-self-center"><a href="mailto:secretariat@iitbhumun.in"
+                                        target="_blank" class="text-light fs-6"> secretariat@iitbhumun.in</a></div>
+                            </div>
+                        </address>
+                    </div>
+                    <div class="col-3 my-3">
+                        <div class="row fs-semi fs-5 mb-3">Participation</div>
+                        <div class="row"><a href="http://" class="p-0"><button
+                                    class="btn home-reg-btn d-inline-block text-light px-5 py-2">Register
+                                    Now</button></a></div>
+                        <div class="row fs-semi fs-5 mt-5">Follow Us</div>
+                        <div class="row gx-5">
+                            <div class="col-1 ps-3"><a href="http://" target="_blank" rel="noopener noreferrer"
+                                    class="text-light fs-4"><i class="fab fa-instagram-square"></i></a></div>
+                            <div class="col-1"><a href="http://" target="_blank" rel="noopener noreferrer"
+                                    class="text-light fs-4"><i class="fab fa-facebook"></i></a></div>
+                            <div class="col-1"><a href="http://" target="_blank" rel="noopener noreferrer"
+                                    class="text-light fs-4"><i class="fab fa-twitter-square"></i></a></div>
+                            <div class="col-1"><a href="http://" target="_blank" rel="noopener noreferrer"
+                                    class="text-light fs-4"><i class="fab fa-medium"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="col-3">
+                        <div class="row fs-6">Website designed by</div>
+                        <div class="row fs-6 fw-lighter">Sree Chakravarthy</div>
+                        <div class="row fs-6 fw-lighter">Garima Singh</div>
+                        <div class="row fs-6 fw-lighter">Deepa Choudary</div>
+                        <div class="row fs-6 fw-lighter">Preeti Kumari</div>
+                    </div>
+                    <div class="col-3">
+                        <div class="row fs-6">Website developed by</div>
+                        <div class="row fs-6 fw-lighter">Madhav Mittal</div>
+                        <div class="row fs-6 fw-lighter">Naman Agrawal</div>
+                        <div class="row fs-6 fw-lighter">Sanskriti Pathak</div>
+                    </div>
+                    <div class="col-2">
+                        <div class="row fs-6">Content drafted by</div>
+                        <div class="row fs-6 fw-lighter">Abhinit Singh</div>
+                        <div class="row fs-6 fw-lighter">Aditya Anil Kapdi</div>
 
-        <div class="footer-left fade">
-
-        <h3 style="font-weight: 700!important; color: silver;">IITBHU<span>MUN</span></h3>
-
-        <p class="footer-links fade">
-        <a href="mun.html">HOME</a>
-    ·
-        <a href="about.html">ABOUT</a>
-    ·
-        <a href="committees.html">COMMITTEES</a>
-    ·
-        <a href="faqs.html">FAQs</a> · <a href="collaborations.html">COLLABORATIONS</a>
-    ·
-        <a href="contact.html">CONTACT</a>
-    ·
-        </p>
-
-        <p class="footer-company-name fade"> &copy;2021: IITBHU MUN</p>
-        </div>
-
-        <div class="footer-center fade">
-
-        <div>
-        <i class="fa fa-map-marker"></i>
-        <p>Indian Institute of Technology (BHU)<span> Varanasi, India</span>
-        </div>
-
-        <div>
-        <i class="fa fa-envelope"></i>
-        <p><a style="color: #fff;">secretariat@iitbhumun.in</a></p>
-        </div>
-
-        <div class="pt-4">
-            <i class="fa fa-cog"></i>
-            <p>Website developed by: Madhav and Subodh
-        </div>
-
-        </div>
-
-        <div class="footer-right fade">
-
-        <p class="footer-company-about fade">
-        <span style="font-size: 20px; font-weight: 700!important;">Follow Us On</span>
-        </p>
-
-        <div class="footer_title">
-
-            <a href="https://www.facebook.com/iitbhumun/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com/iitbhu_mun/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.twitter.com/iitbhu_mun/" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.youtube.com/channel/UCpiqWysYb6E0aAP9VJMfSmg" target="_blank"><i class="fab fa-youtube"></i></a>
-
-        </div>
-
-        </div>
-
+                    </div>
+                </div>
+                <div class="row text-center py-4">
+                    <div class="col">
+                        <span class="fs-8 fw-lighter text-secondary">&copy; 2022 All Right Reserved</span>
+                    </div>
+                </div>
+            </div>
         </footer>
-<!--- End Contact Section-->
 
-<!--- Script Source Files -->
-<script src="jquery.js"></script>
-<script src="fadein.js"></script>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
-<script>document.body.className += ' fade-out'; $(function() {
-    $('body').removeClass('fade-out');
-});</script>
+        <!-- Footer section ends -->
 
-<script>
-       var loader = document.getElementById('loader');
-       window.addEventListener("load",
-function(event) {
-           loader.classList.
-remove('loading');
-           loader.classList.add('loaded');
-           document.body.classList.
-add('imgloaded');
-       });
-</script>
-<!--- End of Script Source Files -->
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- Font Awesome CSS -->
+    <script src="./js/fontawesome.js"></script>
+
+    <!-- Custom script -->
+    <script src="./js/main.js"></script>
+
 
 </body>
+
 </html>

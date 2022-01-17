@@ -1,0 +1,32 @@
+.yellow-card {
+  background-color: rgba(248, 160, 0, 0.7);
+}
+
+.black-card {
+  background-image: linear-gradient(
+    to bottom,
+    #262626,
+    #1e1e1e,
+    #171717,
+    #0d0d0d,
+    #000000
+  );
+}
+
+.pink-card {
+  background-color: rgba(234, 51, 88, 0.7);
+}
+
+.card-text-body {
+  height: 60vh;
+  text-align: justify;
+}
+
+.card-img-body {
+  height: 40vh;
+}
+
+.line {
+  color: #f8a000;
+  padding: 1px;
+}

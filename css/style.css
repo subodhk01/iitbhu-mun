@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-image: linear-gradient(to bottom, #262626, #1e1e1e, #171717, #0d0d0d, #000000);
+  font-size: 18px;
+}
+
+iframe {
+  border: 0;
+}
+
+a {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a,
+a:hover,
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+
+.heading{
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: .05em;
+}
+
+.my-6{
+  margin: 6rem 0;
+}
+
+.my-8{
+    margin: 8rem 0;
+}
+.mb-8{
+    margin-bottom: 8rem;
+}
+.pt-8{
+  padding-top: 8rem;
+}
+
+.fs-8{
+  font-size: 12px;
+}
+
+.fs-0{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.gx-10{
+  grid-column-gap: 10rem;
+}
+
+.fs-semi{
+  font-weight: 600;
+}
+
+.text-yellow{
+  color: #ffb344;
+}
+.text-pink{
+  color: #EA3358;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+/* Header
+========================= */
+#navigation {
+  -webkit-transition: all 0.8s ease 0s;
+  -moz-transition: all 0.8s ease 0s;
+  -ms-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+
+  background-color: #400026 !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  padding: -5px 0;
+}
+
+.nav > li > a {
+  color: #ffb344 !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav > li > a.active {
+  color: white !important;
+  border-bottom: 3px solid white;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* ======
+Media Queries ================== */
+@media screen and (max-width: 992px) {
+  .nav > li > a.active {
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .head-logo {
+    width: 45px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #navigation {
+    min-height: 60px !important;
+  }
+  .head-logo {
+    width: 35px;
+  }
+
+  main {
+    top: 60px !important;
+  }
+  .navbar-toggler-icon {
+    font-size: 15px;
+  }
+}
+
+/* Footer Section
+========================================= */
+footer{
+  background-image: linear-gradient(to bottom, #262626, #1e1e1e, #171717, #0d0d0d, #000000);
+}
+
+.home-reg-btn{
+  background-color: #EA3358;
+}

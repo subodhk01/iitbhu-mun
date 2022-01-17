@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+/* @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 
 body {
@@ -14,10 +14,10 @@ body {
 
 .imgcom {
 	background-image: url("images/thememun5.png");
-}
+} */
 
 /*--- Navigation --*/
-
+/* 
 .navbar {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -42,11 +42,11 @@ body {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
 	color: #00c4ff;
-}
+} */
 
 
 /**--- Landing Page --*/
-
+/* 
 .caption {
 	width: 100%;
 	max-width: 100%;
@@ -268,13 +268,13 @@ body {
 	padding-right: 5px;
 }
 
-/* Colorize-zoom Container */
+Colorize-zoom Container
 .img-hover-zoom--colorize img {
   transition: transform .2s, filter .2s ease-in-out;
   filter: grayscale(90%);
 }
 
-/* The Transformation */
+The Transformation
 .img-hover-zoom--colorize:hover img {
   filter: grayscale(0);
   transform: scale(2.5);
@@ -462,15 +462,15 @@ hr.socket {
 	font-size: 1.3rem;
 }
 
-/* Navbar container */
+Navbar container
 
-/* The dropdown container */
+The dropdown container
 .dropdown {
   float: left;
 
 }
 
-/* Dropdown button */
+Dropdown button
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
@@ -478,16 +478,16 @@ hr.socket {
   color: black;
   padding: 14px 16px;
   background-color: transparent;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit; Important for vertical align on mobile phones
+  margin: 0; Important for vertical align on mobile phones
 }
 
-/* Add a red background color to navbar links on hover */
+Add a red background color to navbar links on hover
 .dropdown:hover .dropbtn {
   background-color: black;
 }
 
-/* Dropdown content (hidden by default) */
+Dropdown content (hidden by default)
 .dropdown-content {
   display: none;
   position: absolute;
@@ -501,7 +501,7 @@ hr.socket {
    letter-spacing: .1rem;
 }
 
-/* Links inside the dropdown */
+Links inside the dropdown
 .dropdown-content a {
   float: none;
   color: white!important;
@@ -511,14 +511,14 @@ hr.socket {
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
+Add a grey background color to dropdown links on hover
 .dropdown-content a:hover {
   background-color: transparent;
   color: #00c4ff!important;
 
 }
 
-/* Show the dropdown menu on hover */
+Show the dropdown menu on hover
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -676,7 +676,7 @@ canvas {
 	margin-top: 20px;
 }
 
-/*#contact .form #sendmessage {
+#contact .form #sendmessage {
   color: #DD6356;
   border: 1px solid #2dc997;
   display: none;
@@ -684,7 +684,7 @@ canvas {
   padding: 15px;
   font-weight: 600;
   margin-bottom: 15px;
-}*/
+}
 
 #contact .form #errormessage {
   color: #00c4ff;
@@ -707,12 +707,12 @@ canvas {
   font-weight: 400;
   font-size: 13px;
 }
-/*
+
 #contact .form input, #contact .form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-}*/
+} */
 
 /*#contact .form button[type="submit"] {
   background: #DD6356;
@@ -720,7 +720,7 @@ canvas {
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
-}*/
+}
 
 #contact .form button[type="submit"]:hover {
   background: #51d8ad;
@@ -772,7 +772,7 @@ canvas {
 /*--------------------------------------------------------------
 #
 --------------------------------------------------------------*/
-#footer {
+/* #footer {
   background: #343b40;
   padding: 30px 0;
   color: #fff;
@@ -790,7 +790,7 @@ canvas {
   color: #ccc;
 }
 
-/* Panel Navigation */
+Panel Navigation
 .panelNav {
   list-style: none;
   margin: 0; padding: 0;
@@ -1064,4 +1064,12 @@ footer{
 
 
 
-}
+} */
+
+
+
+
+
+
+/* New Code 
+================================================== */
